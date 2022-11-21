@@ -4,8 +4,8 @@ import random
 # Getting password length
 length = 11
  
-characterList = "" + string.ascii_letters  +  string.digits + string.punctuation
- 
+characterList = "" + string.ascii_letters  +  string.digits + string.punctuation+ string.ascii_uppercase  
+
 password = []
  
 for i in range(length):
